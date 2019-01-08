@@ -20,7 +20,7 @@ The only fiction writing I've done up until now has been preparation for various
 ## Photography
 I like taking pictures. I typically prefer to take pictures of people and animals, but need to work on my other forms. 
 
-![Lost little mourning dove baby]({{ site.baseurl }}/images/lostdove.png)
+![Lost little mourning dove baby]({{ site.baseurl }}/images/lostdove.jpg)
 
 ## Video production
 I've had a green screen hung up in my apartment for maybe 3 years now and still haven't produced a finished video with the damn thing. This year I'd like to change that, and maybe I'll talk about it here. 
