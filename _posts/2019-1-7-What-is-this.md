@@ -14,16 +14,24 @@ I really enjoy playing board games, video games, and tabletop RPGs, and also hav
 
 What I meant to lead to here is that for the past year or two I've become increasingly interested in designing my own games. I've participated in two game jams so far and had a hand in producing two board games which were at least decent, and would like to do that more outside the context of a game jam. I'll probably do some write ups on what my thought process is or what kind of games I'm trying to make on here.
 
+***
+
 ## Short Fiction?
 The only fiction writing I've done up until now has been preparation for various tabletop RPGs. That's something I'd like to change, and so might be posting some stuff here just to get it out into the world.
+
+***
 
 ## Photography
 I like taking pictures. I typically prefer to take pictures of people and animals, but need to work on my other forms. 
 
 ![Lost little mourning dove baby]({{ site.baseurl }}/images/lostdove.jpg)
 
+***
+
 ## Video production
 I've had a green screen hung up in my apartment for maybe 3 years now and still haven't produced a finished video with the damn thing. This year I'd like to change that, and maybe I'll talk about it here. 
+
+***
 
 ## Web design
 This website design is currently taken directly from the GitHub for Jekyll Now. I'd like to figure out how Jekyll works and configure this thing to meet my needs<sup>3</sup>. Once I'm done with that, I'll move on to setting up bicyclingbear.com where I will hopefully be posting videos and other content creating with my partner related to games and why we play them.
@@ -34,9 +42,11 @@ Well, that about wraps up this introduction. Thank you for reading this if you m
 
 -Adam
 
+
+***
 ¹Insofar as anything posted on the internet can be "tangible".
 
 ²Probably I will have a full write up at some point trying to explore my thoughts on this since I immediately started rambling on the topic.
 
-³Which means I should probably figure out my needs.
+³Which means I should probably figure out what the hell I actually want to do with this site.
 
