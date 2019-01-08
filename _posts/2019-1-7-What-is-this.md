@@ -1,6 +1,7 @@
 ---
 layout: post
 title: What is this going to be?
+tags: intro rambling
 ---
 
 First off I'd like to say hello to the void that I'll be sending these posts to. I've set this site up as a way to force myself into doing some writing, and there's no plan to promote it to get readers or anything like that. I'm mostly doing this because the act of publishing something feels like a good motivation to start doing some short writing - having a tangible¹ product at the end of the day feels like an accomplishment and thus something to come back and contribute to again and again.
