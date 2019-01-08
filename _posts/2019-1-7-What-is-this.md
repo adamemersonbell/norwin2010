@@ -35,7 +35,7 @@ Well, that about wraps up this introduction. Thank you for reading this if you m
 
 -Adam
 
-<sup>1</sup><sup><sub>Insofar as anything posted on the internet can be "tangible".</sup></sub>
-<sup>2</sup><sup><sub>Probably I will have a full write up at some point trying to explore my thoughts on this since I immediately started rambling on the topic.</sup></sub>
-<sup>3</sup><sup><sub>Which means I should probably figure out my needs.</sup></sub>
+<sup>1</sup><sup><sub>Insofar as anything posted on the internet can be "tangible".</sub></sup>
+<sup>2</sup><sup><sub>Probably I will have a full write up at some point trying to explore my thoughts on this since I immediately started rambling on the topic.</sub></sup>
+<sup>3</sup><sup><sub>Which means I should probably figure out my needs.</sub></sup>
 
