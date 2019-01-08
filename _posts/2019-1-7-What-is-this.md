@@ -10,7 +10,7 @@ That's the theory, anyway. If you're someone who happens to be reading this in J
 Here are a topics that might show up here:
 
 ## Game Design
-I really enjoy playing board games, video games, and tabletop RPGs, and also have a fondness for the way the systems that those games are designed around come together to facilitate different types of "fun", which is a word used very broadly here. Some games provide a raucous sort of fun, like the session of *Dungeon World* I ran recently where the adventurers punched their way out of the bottom of a boat because of a precedent I set while forgetting that the majority of boats exist underwater. However, this isn't the only type of "fun" games can provide. Chunky euro-style board games just burn your brain up but are still an enjoyable use of your time. Video games like *Papers, Please* provide no opportunites or reasons for their players to smile, but still qualify as "fun" in the sense that I'm using the word here³.
+I really enjoy playing board games, video games, and tabletop RPGs, and also have a fondness for the way the systems that those games are designed around come together to facilitate different types of "fun", which is a word used very broadly here. Some games provide a raucous sort of fun, like the session of *Dungeon World* I ran recently where the adventurers punched their way out of the bottom of a boat because of a precedent I set while forgetting that the majority of boats exist underwater. However, this isn't the only type of "fun" games can provide. Chunky euro-style board games just burn your brain up but are still an enjoyable use of your time. Video games like *Papers, Please* provide no opportunites or reasons for their players to smile, but still qualify as "fun" in the sense that I'm using the word here².
 
 What I meant to lead to here is that for the past year or two I've become increasingly interested in designing my own games. I've participated in two game jams so far and had a hand in producing two board games which were at least decent, and would like to do that more outside the context of a game jam. I'll probably do some write ups on what my thought process is or what kind of games I'm trying to make on here.
 
@@ -34,7 +34,7 @@ I've had a green screen hung up in my apartment for maybe 3 years now and still 
 ***
 
 ## Web design
-This website design is currently taken directly from the GitHub for Jekyll Now. I'd like to figure out how Jekyll works and configure this thing to meet my needs<sup>3</sup>. Once I'm done with that, I'll move on to setting up bicyclingbear.com where I will hopefully be posting videos and other content creating with my partner related to games and why we play them.
+This website design is currently taken directly from the GitHub for Jekyll Now. I'd like to figure out how Jekyll works and configure this thing to meet my needs³. Once I'm done with that, I'll move on to setting up bicyclingbear.com where I will hopefully be posting videos and other content created with my partner. It will all likely be related to games and why we play them.
 
 ***
 
