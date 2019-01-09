@@ -9,9 +9,9 @@ TKTKTK [introduction - goal to read a book a week, reasons for choosing certain 
 
 
 <details>
-<summary class="mediaoverview">### Binti: Home by Nnedi Okorafor </summary>
-<img class="mediaimg" src="/../images/bintihome.jpg">
-<p class="mediatext">
+<summary class="mediaoverview row">### Binti: Home by Nnedi Okorafor </summary>
+<img class="mediaimg column" src="/../images/bintihome.jpg">
+<p class="mediatext row">
 TKTKTK [Book Synopsis]
 </p>
 </details>
