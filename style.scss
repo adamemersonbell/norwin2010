@@ -47,6 +47,24 @@ body {
   display: table;
   clear: both;
 }
+.mediatext {
+	padding-left: 5px;
+}
+
+.mediaimg{
+	padding-right: 15px;
+}
+
+.mediaoverview{
+	font-style: italic;
+}
+
+.mediatitle{
+	font-size: 20px;
+	font-weight: bold;
+	font-family: $helveticaNeue;
+
+}
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
