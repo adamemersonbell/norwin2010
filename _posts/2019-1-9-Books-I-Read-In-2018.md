@@ -7,9 +7,12 @@ At the start of 2018, I set a goal to try to read a book on average each week.
 
 TKTKTK [introduction - goal to read a book a week, reasons for choosing certain books, etc]
 
-### Binti: Home by Nnedi Okorafor 
+
 <details>
-<summary>Possible Spoilers Ahead</summary>
+<summary>### Binti: Home by Nnedi Okorafor </summary>
+![Binti: Home]({{ site.baseurl }}/images/bintihome.jpg)
+
+
 TKTKTK [Book Synopsis]
 </details>
 
