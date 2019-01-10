@@ -33,6 +33,10 @@
         </header>
       </div>
     </div>
+	
+{% if site.tags != "" %}
+  {% include collecttags.html %}
+{% endif %}
 
     <div id="main" role="main" class="container">
       {{ content }}
