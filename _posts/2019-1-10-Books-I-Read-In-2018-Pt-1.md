@@ -12,7 +12,7 @@ At the start of 2018, I set a goal to try to read a book on average each week.
 <div class="mediatitle">{{ book.title }} by {{ book.author }}</div>
 <div class="mediaoverview row">
 	<img class="mediaimg mycolumn" src="{{ book.image }}">
-	<div class="mediatext myrow">
+	<div class="mediatext mycolumn">
 		<details>
 			<summary>
 				{{ book.synopsis }}
