@@ -9,10 +9,10 @@ At the start of 2018, I set a goal to try to read a book on average each week.
 [introduction - goal to read a book a week, reasons for choosing certain books, etc]
 
 {% for book in site.data.2018bookspt1 %}
-<div class="mediatitle">{{ book.title }}</div>
+<div class="mediatitle">{{ book.title }} by {{ book.author }}</div>
 <div class="mediaoverview row">
-	<img class="mediaimg column" src="{{ book.image }}">
-	<div class="mediatext row">
+	<img class="mediaimg mycolumn" src="{{ book.image }}">
+	<div class="mediatext myrow">
 		<details>
 			<summary>
 				{{ book.synopsis }}

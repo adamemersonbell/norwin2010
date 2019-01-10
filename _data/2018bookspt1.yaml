@@ -2,27 +2,27 @@
   title: "Binti:Home"
   author: "Nnedi Okorafor"
   synopsis: |
-    "This is the second book in the excellent Binti trilogy. It continues the futuristic story of Binti, a Himba girl who went to space."
-    "Binti takes the long journey home."
+    This is the second book in the excellent Binti trilogy. It continues the futuristic story of Binti, a Himba girl who went to space.
+    Binti takes the long journey home.
   reaction: |
-    "I really liked this book."
-    "Filler because I'm testing this format"
+    I really liked this book.
+    Filler because I'm testing this format
   image: "/../images/bintihome.jpg"
 
 - fish:
   title: "What a Fish Knows: The Inner Lives of Our Underwater Cousins"
   author: "Jonathan Balcombe"
   synopsis: |
-    "A non-fiction book that walks through various scientific endeavours and anecdotes about the cognitive abilities of various species of fish. Balcombe walks of fishy life, with chapters on what fish perceive, feel, and think as well as different ways they recognize each other (as well as humans). Sprinkled within are passages that paint the tragedy of this; humans are destroying the oceans at alarming rates, so we may never truly explore the vast potential that ocean life holds."
-  reaction:
-    - "Fish are neat."
+    A non-fiction book that walks through various scientific endeavours and anecdotes about the cognitive abilities of various species of fish. Balcombe walks of fishy life, with chapters on what fish perceive, feel, and think as well as different ways they recognize each other (as well as humans). Sprinkled within are passages that paint the tragedy of this; humans are destroying the oceans at alarming rates, so we may never truly explore the vast potential that ocean life holds.
+  reaction: |
+    Fish are neat.
   image:
 
 - threebody:
   title: "The Three-Body Problem"
   author: "Cixin Liu (translated by Ken Liu)"
   synopsis: |
-    "This is the first book in the <i>Rememberance of Earth's Past</i> trilogy. It starts with the story of Ye Wenjie, a scientist during China's Cultural Revolution. She gets involved in a top secret SETI (Search for Extra Terrestrial Intelligence) program for the Chinese government. After some time with her, the story cuts forward to the modern day 20XX as we follow another scientist, Wang Miao, as he is recruited to solve a great mystery."
+    This is the first book in the <i>Rememberance of Earth's Past</i> trilogy. It starts with the story of Ye Wenjie, a scientist during China's Cultural Revolution. She gets involved in a top secret SETI (Search for Extra Terrestrial Intelligence) program for the Chinese government. After some time with her, the story cuts forward to the modern day 20XX as we follow another scientist, Wang Miao, as he is recruited to solve a great mystery.
   reaction: |
     "hello"
   image:
@@ -31,24 +31,26 @@
   title: "The Dark Forest"
   author: "Cixin Liu (translated by Joel Martinsen)"
   synopsis: |
-    "This is the second book in the <i>Rememberance of Earth's Past</i> trilogy. This time we're following Luo Ji, a lazy sociologist who is thrust into the spotlight of a changed world."
+    This is the second book in the <i>Rememberance of Earth's Past</i> trilogy. This time we're following Luo Ji, a lazy sociologist who is thrust into the spotlight of a changed world.
   reaction: |
+    wow it sure is a dark forest out there huh
+    yep sure is
   image:
 
 - deathsend:
   title: "Death's End"
   author: "Cixin Liu (Translated by Ken Liu)"
   synopsis: |
-    "This is the third and final book in the <i>Rememberance of Earth's Past</i> trilogy."
+    This is the third and final book in the <i>Rememberance of Earth's Past</i> trilogy.
   reaction: |
-    "beep"
+    beep
   image:
   
-- book: ""
-  title: ""
-  author: ""
-  synopsis: |
-    ""
-  reaction: |
-    ""
-  image:
+#- book: ""
+#  title: ""
+#  author: ""
+#  synopsis: |
+#    ""
+#  reaction: |
+#    ""
+#  image:
