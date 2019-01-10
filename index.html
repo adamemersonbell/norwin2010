@@ -2,14 +2,24 @@
 layout: default
 ---
 
-<div class="posts">
+<div class="Grid">
   {% for post in site.posts %}
-		 <div href="{{ site.baseurl }}{{ post.url }}" class="card">
-			<img src="{{ post.image }}" alt="{{ post.excerpt }}" style="width:100%">
-			<div class="container">
-				<h4><b>{{ post.title }}</b></h4>
-				<p>{{ post.date | date: "%B %e, %Y" }}</p>
+	<div class="Grid-item Grid--3">
+		 <div class="Card">
+			<div class="Card-thumb Card-thumb--portrait pa4" style="background-image: url({{ post.image }});">
+				<div class="Card-label">{{ post.tags }}</div>
 			</div>
-			</div> 
+			<article class="pa4">
+				<h3>{{ post.title }}</h4>
+				<p class="Card-description mt2">{{ post.excerpt }}</p>
+				<div class="Card-grid Card-grid--2">
+					<div class="Card-grid-item">
+						<a href="{{ site.baseurl }}{{ post.url }}" class="Button Button--primary Button--s mr1">Read More</a>
+					</div>
+					<div class="Card-grid-item">{{ post.date | date: "%B %e, %Y" }}</div>
+				</div>
+			</article>
+		</div> 
+	</div>
   {% endfor %}
 </div>
