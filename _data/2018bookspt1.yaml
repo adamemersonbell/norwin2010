@@ -1,17 +1,17 @@
 - bintihome:
-	title: "Binti:Home"
-	author: "Nnedi Okorafor"
-	synopsis:
-		- "This is the second book in the excellent Binti trilogy. It continues the futuristic story of Binti, a Himba girl who went to space."
-		- "Binti takes the long journey home."
-	reaction:
-		- "I really liked this book."
-		- "Filler because I'm testing this format"
-	image: "/../images/bintihome.jpg"
+  title: "Binti:Home"
+  author: "Nnedi Okorafor"
+  synopsis: |
+    "This is the second book in the excellent Binti trilogy. It continues the futuristic story of Binti, a Himba girl who went to space."
+    "Binti takes the long journey home."
+  reaction: |
+    "I really liked this book."
+    "Filler because I'm testing this format"
+  image: "/../images/bintihome.jpg"
 - fish:
-	title: "What a Fish Knows: The Inner Lives of Our Underwater Cousins"
-	author: "Jonathan Balcombe"
-	synopsis:
-		- "A non-fiction book that walks through various scientific endeavours and anecdotes about the cognitive abilities of various species of fish. Balcombe walks of fishy life, with chapters on what fish perceive, feel, and think as well as different ways they recognize each other (as well as humans). Sprinkled within are passages that paint the tragedy of this; humans are destroying the oceans at alarming rates, so we may never truly explore the vast potential that ocean life holds."
-	reaction:
-		- "Fish are neat."
+  title: "What a Fish Knows: The Inner Lives of Our Underwater Cousins"
+  author: "Jonathan Balcombe"
+  synopsis:
+    - "A non-fiction book that walks through various scientific endeavours and anecdotes about the cognitive abilities of various species of fish. Balcombe walks of fishy life, with chapters on what fish perceive, feel, and think as well as different ways they recognize each other (as well as humans). Sprinkled within are passages that paint the tragedy of this; humans are destroying the oceans at alarming rates, so we may never truly explore the vast potential that ocean life holds."
+  reaction:
+    - "Fish are neat."
