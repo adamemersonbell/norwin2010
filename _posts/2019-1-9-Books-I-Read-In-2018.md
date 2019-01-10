@@ -10,7 +10,7 @@ At the start of 2018, I set a goal to try to read a book on average each week.
 {% for book in site.data.2018bookspt1.yaml %}
 <div class="mediatitle">{{ book.title }}</div>
 <div class="mediaoverview row">
-	<img class="mediaimg column" src="book.image">
+	<img class="mediaimg column" src="{{ book.image }}">
 	<div class="mediatext row">
 		<details>
 		</details>
