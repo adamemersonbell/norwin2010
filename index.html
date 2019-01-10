@@ -7,7 +7,12 @@ layout: default
 	<div class="Grid-item Grid--3">
 		 <div class="Card">
 			<div class="Card-thumb Card-thumb--portrait pa4" style="background-image: url({{ post.image }});">
-				<div class="Card-label">{{ post.tags }}</div>
+				<div class="Card-label">
+				{% for tag in page.tags %}
+					{% for tag in page.tags %}
+					{% capture tag_name %}{{ tag }}{% endcapture %}
+					<a href="/tag/{{ tag_name }}">{{ tag_name }}</a>
+				{% endfor %}
 			</div>
 			<article class="pa4">
 				<h3>{{ post.title }}</h4>
