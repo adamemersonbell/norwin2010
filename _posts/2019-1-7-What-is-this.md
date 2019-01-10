@@ -2,7 +2,7 @@
 layout: post
 title: What is this going to be?
 tags: intro rambling
-image: https://lh3.googleusercontent.com/_0t-qAWcGseKNsGN7NKrceC26F6GagcUlmgO8Na41IRrut0LJ2XHmcL2xiQAL4GuwFBnhRMxf_eMO_sca9gT1VvwlqsyCz3u9nJdwYo-iW84WblBIG8jwZ3tGslK-c1OHgOmG-YBtZzxLfT3fRFnAPU7Asq23XLbkJHA5z3EGKvjjO7ahl6Sj8osn3GTjW_V1hxqKxGFsvst38uqhaP1mkayS_ZBbh9PVUPtp-XRFzgoR7xydCtiX-PypLlvhnf5Q5LEvi63KofBlJ-QCQ4kVRF5HbFk4Pp6ZOu4nDCJymxc3WR1ugGgj7CT2T2Zy15Muu2CKdwf8gM_TOntvEODSeDTL35A1Y_cJYNtfC_RbCM0BWcq-bSUuEy1cuVNO5_CyIPuFB_pzFKTFqrq6a7R42QR4Kd_5jYTKNJ9d9ZTFFqXdZKvy8oEVFgs9o3NR7hvYDMytXQTe_QhfBjK6m4ShnP7ASplYHho3rIZYcp6RTP1cSdsevvTJhJRhytuyJFL4N-xFnpcgh9JjP5OgLg0w3DDYfvZS5yRKqaKa6BEF-I4CK03aXByJVlxqC-5CZ8q_m47fd5sMP_w6r0FlsIqrBEFSW2o0-bViZodTnkRQ4c5pjm6ZVbzr6Zrlcwq2v1NZbGSKlZhn5y9QihE9wp7E2oRyA=w811-h1081-no
+image: https://lh3.googleusercontent.com/qU2Mr9-Dvu9sJZe_etS_qwOUSl0P3VkdTqiblfoSm8wSc6dWg9MhP-oZOiP3oBan9BVkWIOdgtwMNvhKtmyqcANrjMpBPX74vj_ceMUtrCTNv0QZgX0DQSjEuKZvewrCsE82zK-z4lA=w2400
 ---
 
 First off I'd like to say hello to the void that I'll be sending these posts to. I've set this site up as a way to force myself into doing some writing, and there's no plan to promote it to get readers or anything like that. I'm mostly doing this because the act of publishing something feels like a good motivation to start doing some short writing - having a tangible¹ product at the end of the day feels like an accomplishment and thus something to come back and contribute to again and again.
