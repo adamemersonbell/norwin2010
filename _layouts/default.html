@@ -25,23 +25,16 @@
   </head>
 
   <body>
-    <div class="wrapper-masthead">
-      <div class="container">
-        <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
-
-          <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">{{ site.description }}</p>
-          </div>
-
-          <nav>
-            <a href="{{ site.baseurl }}/">Blog</a>
-            <a href="{{ site.baseurl }}/about">About</a>
-          </nav>
-        </header>
-      </div>
-    </div>
+	<nav class="light-blue lighten-1" role="navigation">
+      <div class="nav-wrapper container">
+		<a id="logo-container" href="{{ site.baseurl }}/" class="brand-logo">{{ site.name }}</a>
+		<ul id="nav-mobile" class="right hide-on-med-and-down">
+			<li><a href="{{ site.baseurl }}">Blog</a></li>
+			<li><a href="{{ site.baseurl }}/about">About</a></li>
+		</ul>
+		</div>
+	</nav>		
+		
 
 
     <div id="main" role="main" class="container">
@@ -60,6 +53,6 @@
   </body>
 </html>
 
-<script src="{{ site.baseurl }}/assets/toolkit/scripts/toolkit.js"></script>
+<!--script src="{{ site.baseurl }}/assets/toolkit/scripts/toolkit.js"></script>
       <!--JavaScript at end of body for optimized loading-->
       <script type="text/javascript" src="{{ site.baseurl }}/assets/materialize/js/materialize.min.js"></script>
