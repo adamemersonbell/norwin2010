@@ -25,15 +25,29 @@
   </head>
 
   <body>
-	<div class="sidebar purrple accent-1">
-		<img class="circle myface" id="logo" src="{{ site.avatar }}" />
-		<a id="logo-container" href="{{ site.baseurl }}/" class="active brand-logo">
-			{{ site.name }}
-		</a>
-		<a href="{{ site.baseurl }}">Blog</a>
-		<a href="{{ site.baseurl }}/about">About</a>
-	</div>
-  
+	<header>
+		<div class="container"><a href="#" data-target="nav-mobile" class="top-nav sidenav-trigger waves-effect waves-light circle hide-on-large-only"><i class="material-icons">menu</i></a></div>
+		<ul id="nav-mobile" class="sidenav sidenav-fixed">
+			<li class="logo">
+				<a id="logo-container" href="/" class="brand-logo">
+					<object id="front-page-logo" class="circle" type="image/jpg" data="{{ site.avatar }}">logo won't load</object>
+				</a>
+			</li>
+			<li class="bold"><a href="{{ site.baseurl }}/about" class="waves-effect waves-teal">About</a></li>
+			<li class="bold"><a href="{{ site.baseurl }}" class="waves-effect waves-teal">Blog</a></li>
+			<li class="no-padding">
+				<ul class="collapsible collapsible-accordion">
+					<li class="bold"><a class="collapsible-header waves-effect waves-teal">Tags</a>
+						<div class="collapsible-body">
+							<ul>
+								<li><a href="color.html">need to throw in a for loop for the tags</a></li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</header>
   
 	<!--nav class="purple accent-1" role="navigation">
 		<div class="nav-wrapper container">
