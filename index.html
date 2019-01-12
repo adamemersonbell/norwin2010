@@ -2,8 +2,8 @@
 layout: default
 ---
 
-		<div class="parallax-container">
   {% for post in site.posts %}
+		<div class="parallax-container">
 				<div class="parallax">
 					<img src="{{ post.image }}">
 				</div>
@@ -13,6 +13,9 @@ layout: default
 						<p class="grey-text text-darken-3 lighten-3">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
 					</div>
 				</div>
+		</div>
+  {% endfor %}
+
 		 
 			<!--div class="Card-thumb Card-thumb--portrait pa4" style="background-image: url({{ post.image }});">
 				<div class="Card-label">
@@ -34,6 +37,3 @@ layout: default
 					<div class="Card-grid-item">{{ post.date | date: "%B %e, %Y" }}</div>
 				</div>
 			</article-->
-  {% endfor %}
-</div>
-
