@@ -2,11 +2,28 @@
 layout: default
 ---
 <div class="row">
-	<div class="col s1 m1 l5"></div>
-	<div class="col s10 m10 l4">
   {% for post in site.posts %}
-		<div class="parallax-container">
-			<div class="parallax">
+		<div class="col s12 m7">
+			<h2 class="header">{{ post.title }}</h2>
+			<div class="card horizontal">
+				<div class="card-image">
+					<img src="{{ site.baseurl }}/images/standin.jpg">
+				</div>
+				<div class="card-stacked">
+					<div class="card-content">
+						{{ post.excerpt }}
+					</div>
+					<div class="card-action">
+						<a href="{{ site.baseurl }}{{ post.url }}">open post</a>
+					</div>
+				</div>
+			</div>
+		</div>
+  {% endfor %}
+						
+		
+		
+			<!--div class="parallax">
 				<img src="{{ post.image }}">
 			</div>
 		</div>
@@ -24,7 +41,7 @@ layout: default
 		</div>
 	</div>
 	<div class="col s1 m1 l3"
-</div>
+</div-->
 		 
 			<!--div class="Card-thumb Card-thumb--portrait pa4" style="background-image: url({{ post.image }});">
 				<div class="Card-label">
