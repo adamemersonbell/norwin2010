@@ -9,7 +9,7 @@ layout: default
 				</div>
 				<div class="section purple accent-2">
 					<div class="row container">
-						<h2 class="header">{{ post.title }}</h2>
+						<a href="{{ site.baseurl }}{{ post.url }}"><h2 class="header">{{ post.title }}</h2></a>
 						<p class="grey-text text-darken-3 lighten-3">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
 					</div>
 				</div>
