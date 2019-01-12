@@ -105,11 +105,27 @@
 <!--script src="{{ site.baseurl }}/assets/toolkit/scripts/toolkit.js"></script-->
       <!--JavaScript at end of body for optimized loading-->
 <script type="text/javascript" src="{{ site.baseurl }}/assets/materialize/js/materialize.min.js"></script>
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
 <script type="text/javascript">
 	document.addEventListener('DOMContentLoaded', function() {
 		var elems = document.querySelectorAll('.sidenav');
 		var instances = M.Sidenav.init(elems, options);
 	});
+	
+	$(document).ready(function(){
+  $('.button-collapse').sidenav({
+      menuWidth: 300, // Default is 300
+      edge: 'left', // Choose the horizontal origin
+      closeOnClick: false, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+      draggable: true // Choose whether you can drag to open on touch screens
+    }
+  );
+  // START OPEN
+  $('.button-collapse').sidenav('show');
+});
 </script>
 <script type="text/javascript">
 	var instance = M.Sidenav.getInstance(elem);
