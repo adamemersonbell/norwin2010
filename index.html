@@ -8,14 +8,14 @@ layout: default
 			<h2 class="header">{{ post.title }}</h2>
 			<div class="card horizontal">
 				<div class="card-image">
-					<img src="{{ site.baseurl }}/images/standin.jpg">
+					<img src="{{ post.image ">
 				</div>
 				<div class="card-stacked">
 					<div class="card-content">
-						{{ post.excerpt }}
+						{{ post.summary }}
 					</div>
 					<div class="card-action">
-						<a href="{{ site.baseurl }}{{ post.url }}">click</a>
+						<a href="{{ site.baseurl }}{{ post.url }}">read post</a>
 					</div>
 				</div>
 			</div>
