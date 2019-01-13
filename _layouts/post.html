@@ -16,7 +16,7 @@ layout: default
   </div>
   
   <div class="footnotes">
-    {% for footnote in page.footnote %}
+    {% for footnote in page.footnotes %}
     {% capture footnotetext %}{{ footnote }}{% endcapture %}
 	<span id="footnote {{forloop.index }}><sup>{{ forloop.index }}</sup>{{ footnotetext }}</span>
   {% endfor %}
