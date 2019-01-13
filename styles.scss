@@ -36,8 +36,9 @@ html, body{
 	
 #leftnavlist{
 	background-image: url("https://adamebell.com/images/farmland.jpg");
-	background-size: 100% auto;
+	background-size: auto 100%;
 	background-repeat: no-repeat;
+	background-position: center;
 }
 	
 .navitem{
