@@ -26,7 +26,7 @@ The only fiction writing I've done up until now has been preparation for various
 ## Photography
 I like taking pictures. I typically prefer to take pictures of people and animals, but need to work on my other forms. 
 
-![Lost little mourning dove baby]({{ site.baseurl }}/images/lostdove.jpg)
+<img src="{{ site.baseurl }}/images/lostdove.jpg" class="responsive-img" alt="cute lost little bird">
 
 ***
 
