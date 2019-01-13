@@ -44,7 +44,7 @@
 				<li class="collection-item waves-effect waves-orange navitem"><a href="https://{{ site.url }}" >Blog</a></li>
 			</ul>
 			<ul class="collection with-header hide-on-small-only">
-				<li class="collection-header"><h5>Post Tags</h5></li>
+				<li class="collection-header"><h5>Sitewide Post Tags</h5></li>
 				{% capture temptags %}
 					{% for tag in site.tags %}
 						{{ tag[1].size | plus: 1000 }}#{{ tag[0] }}#{{ tag[1].size }}
@@ -67,7 +67,7 @@
 		
 		<div class="col s12 indigo lighten-5 hide-on-med-and-up">
 			<ul class="collection with-header">
-				<li class="collection-header"><h5>Post Tags</h5></li>
+				<li class="collection-header"><h5>Sitewide Post Tags</h5></li>
 				{% capture temptags %}
 					{% for tag in site.tags %}
 						{{ tag[1].size | plus: 1000 }}#{{ tag[0] }}#{{ tag[1].size }}
