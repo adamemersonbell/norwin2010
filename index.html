@@ -4,13 +4,13 @@ layout: default
   {% for post in site.posts %}
 					<div class="postcard blue lighten-5">
 						<h2 class="header">{{ post.title }}</h2>
-						<div class="card horizontal small">
+						<div class="card horizontal small hoverable">
 							<div class="card-image">
 								<img src="{{ post.image }}">
 							</div>
 							<div class="card-stacked">
 								<div class="card-content">
-									{{ post.summary }}
+									<p class="flow-text">{{ post.summary | remove <p> | remove </p> }}</p>
 								</div>
 								<div class="card-action">
 									<a href="{{ site.baseurl }}{{ post.url }}">read post</a>

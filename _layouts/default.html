@@ -37,25 +37,25 @@
 						<li><a href="#email"><span class="white-text email">{{ site.excerpt }}</span></a></li>
 						</ul>
 					</div>
-				</li>			
-				<li class="bold"><a href="{{ site.baseurl }}/about" class="waves-effect waves-teal">About</a></li>
-				<li class="bold"><a href="https://{{ site.url }}" class="waves-effect waves-teal">Blog</a></li>
-				<li class="no-padding">
-					<li class="no-padding">
-						<ul class="collapsible collapsible-accordion">
-							<li>
-								<a class="collapsible-header">Tags<i class="material-icons">arrow_drop_down</i></a>
-								<div class="collapsible-body">
-									<ul>
-										<li><a href="#!">Must</a></li>
-										<li><a href="#!">Create</a></li>
-										<li><a href="#!">For</a></li>
-										<li><a href="#!">Loop</a></li>
-									</ul>
-								</div>
-							</li>
-						</ul>
-					</li>
+				</li>
+			</ul>
+			<ul class="collection">
+				<li class="collection-item"><a href="{{ site.baseurl }}/about" class="waves-effect waves-teal">About</a></li>
+				<li class="collection-item"><a href="https://{{ site.url }}" class="waves-effect waves-teal">Blog</a></li>
+				<li class="collection-item">
+					<ul class="collapsible collapsible-accordion">
+						<li>
+							<div class="collapsible-header">Tags<i class="material-icons">arrow_drop_down</i></div>
+							<div class="collapsible-body">
+								<ul>
+									<li><a href="#!">Must</a></li>
+									<li><a href="#!">Create</a></li>
+									<li><a href="#!">For</a></li>
+									<li><a href="#!">Loop</a></li>
+								</ul>
+							</div>
+						</li>
+					</ul>
 				</li>
 			</ul>
 		</div>
@@ -166,4 +166,10 @@
 	console.log(elems);
 	console.log(instances);
   });
+  
+    document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.collapsible');
+    var instances = M.Collapsible.init(elems, options);
+  });
+
 </script>
