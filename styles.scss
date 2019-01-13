@@ -23,18 +23,16 @@ html, body{
       height: "200px";
     }
 	
-
+@media screen and (min-width: 600px){	
 .bottomout{
-	@media #{$medium-and-up}{	
 	height: 100%
-}}
+}
 	
 #leftnav{
-	@media #{$medium-and-up}{	
 	height:100%;
 	margin:auto;
-}}
-
+	}
+}
 	
 #leftnavlist{
 	background-image: url("https://adamebell.com/images/farmland.jpg");
