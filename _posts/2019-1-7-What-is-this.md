@@ -5,7 +5,7 @@ tags: intro rambling
 summary: I explain what this page will be and why I'm doing it.
 image: https://lh3.googleusercontent.com/qU2Mr9-Dvu9sJZe_etS_qwOUSl0P3VkdTqiblfoSm8wSc6dWg9MhP-oZOiP3oBan9BVkWIOdgtwMNvhKtmyqcANrjMpBPX74vj_ceMUtrCTNv0QZgX0DQSjEuKZvewrCsE82zK-z4lA=w2400
 footnotes:
-  - 'Insofar as anything posted on the internet can be "tangible".
+  - 'Insofar as anything posted on the internet can be "tangible".'
   - 'Probably I will have a full write up at some point trying to explore my thoughts on this since I immediately started rambling on the topic.'
   - 'Which means I should probably figure out what the hell I actually want to do with this site.'
 ---
