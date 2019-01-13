@@ -51,10 +51,10 @@ url: adamebell.com
 baseurl: ""
 
 # yo it's ur tags
-tags: |
-  books
-  intro
-  rambling
+tags:
+  - books
+  - intro
+  - rambling
 
 
 #
