@@ -25,6 +25,14 @@
 	background-image: url("https://adamebell.com/images/farmland.jpg");
 	margin:auto;
 	}
+
+.navitem{
+	display:inline-block;
+}
+	
+.navitem:hover {
+	background-color: gray;
+}
 	
 .postcard{
 	margin: 30px 0px;
