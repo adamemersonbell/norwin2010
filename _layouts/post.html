@@ -1,22 +1,22 @@
 ---
 layout: default
 ---
-
-<div class="post red lighten-5">
-  <h1>{{ page.title }}</h1>
-  <div class="date">
-    Written on {{ page.date | date: "%B %e, %Y" }}
-  </div>
-  <span class="tags"> tags: [
-  {% for tag in page.tags %}
-    {% capture tag_name %}{{ tag }}{% endcapture %}
-    <a href="/tag/{{ tag_name }}">{{ tag_name }}</a>
-  {% endfor %}
-]</span>
-  <img class="postimage responsive-img" src="{{ page.image }}">
-  <div class="entry">
-    {{ content }}
-  </div>
+<div class="parallax-container">
+	<div class="parallax"><img class="postimage responsive-img" src="{{ page.image }}"></div>
+</div>
+<div class="section post red lighten-5">
+	<div class="row container">
+		<h1>{{ page.title }}</h1>
+		<div class="date"><h5>Written on {{ page.date | date: "%B %e, %Y" }}</h5></div>
+		<span class="tags"> tags: [
+			{% for tag in page.tags %}
+			{% capture tag_name %}{{ tag }}{% endcapture %}
+			<a href="/tag/{{ tag_name }}">{{ tag_name }}</a>
+			{% endfor %}]
+		</span>
+		<div class="entry">
+			{{ content }}
+		</div>
   
   <div class="footnotes">
     {% for footnote in page.footnotes %}
