@@ -45,8 +45,16 @@
 			</ul>
 			<ul class="collection-with-header">
 				<li class="collection-header"><h5>Post Tags</h5></li>
+				{% capture temptags %}
 					{% for tag in site.tags %}
-						<li class="collection-item"><a href="/tag/{{ tag_name }}">{{ tag }}</a></li>
+						{{ tag[1].size | plus: 1000 }}#{{ tag[0] }}#{{ tag[1].size }}
+					{% endfor %}
+				{% endcapture %}
+					{% assign sortedtemptags = temptags | split:' ' | sort | reverse %}
+					{% for temptag in sortedtemptags %}
+						{% assign tagitems = temptag | split: '#' %}
+						{% capture tagname %}{{ tagitems[1] }}{% endcapture %}
+						<li class="collection-item"><a href="/tag/{{ tagname }}">{{ tagname }}</a></li>
 					{% endfor %}				
 			</ul>
 		</div>
