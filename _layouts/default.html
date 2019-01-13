@@ -42,20 +42,13 @@
 			<ul class="collection">
 				<li class="collection-item"><a href="{{ site.baseurl }}/about" class="waves-effect waves-teal">About</a></li>
 				<li class="collection-item"><a href="https://{{ site.url }}" class="waves-effect waves-teal">Blog</a></li>
-				<li class="collection-item">
-					<ul class="collapsible collapsible-accordion">
-						<li>
-							<div class="collapsible-header">Tags<i class="material-icons">arrow_drop_down</i></div>
-							<div class="collapsible-body">
-								<ul>
-									<li><a href="#!">Must</a></li>
-									<li><a href="#!">Create</a></li>
-									<li><a href="#!">For</a></li>
-									<li><a href="#!">Loop</a></li>
-								</ul>
-							</div>
-						</li>
-					</ul>
+			</ul>
+			<ul class="collection-with-header">
+				<li class="collection-header"><h5>Post Tags</h5></li>
+					{% for tag in site.tags %}
+					{% capture tag_name %}{{ tag }}{% endcapture %}
+						<li class="collection-item"><a href="/tag/{{ tag_name }}">{{ tag_name }}</a></li>
+					{% endfor %}				
 				</li>
 			</ul>
 		</div>
