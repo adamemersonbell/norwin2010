@@ -10,7 +10,7 @@ layout: default
 							<div class="card-stacked">
 								<div class="card-content">
 									<span class="card-title">{{ post.title }}</span>
-									<p>{{ post.summary | strip_html }}</p>
+									<p>{{ post.excerpt | strip_html }}</p>
 								</div>
 								<div class="card-action">
 									<a href="{{ site.baseurl }}{{ post.url }}">read post</a>
