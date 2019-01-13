@@ -18,16 +18,7 @@
       height: "200px";
     }
 	
-    header, main, footer {
-      padding-left: 300px;
-    }
 
-    @media only screen and (max-width : 992px) {
-      header, main, footer {
-        padding-left: 0;
-      }
-    }
-	
 #siteinformation{
 	background-image: url("https://adamebell.com/images/farmland.jpg");
 	margin:auto;
