@@ -23,10 +23,12 @@ html, body{
       height: "200px";
     }
 	
+.bottomout{
+	bottom:0px;
+}
+	
 #leftnav{
 	bottom: 0px;
-}
-#siteinformation{
 	background-image: url("https://adamebell.com/images/farmland.jpg");
 	background-size: 100%;
 	margin:auto;
