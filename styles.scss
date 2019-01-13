@@ -14,8 +14,9 @@
 	margin: auto;
 }
 
-html {
+html, body{
 	height: 100%;
+	margin: 0;
 }
 
 .parallax-container {
@@ -40,7 +41,7 @@ html {
 .navitem:hover {
 	background-color: gray;
 }
-	
+
 .postcard{
 	margin: 30px 0px;
 	padding: 0px 10px 10px;
