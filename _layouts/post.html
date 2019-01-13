@@ -14,6 +14,13 @@ layout: default
   <div class="entry">
     {{ content }}
   </div>
+  
+  <div class="footnotes">
+    {% for footnote in page.footnote %}
+    {% capture footnotetext %}{{ footnote }}{% endcapture %}
+	<span id="footnote {{forloop.index }}><sup>{{ forloop.index }}</sup>{{ footnotetext }}</span>
+  {% endfor %}
+  </div>
 
   <div class="date">
     Written on {{ page.date | date: "%B %e, %Y" }}

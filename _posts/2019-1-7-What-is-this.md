@@ -4,6 +4,10 @@ title: What is this going to be?
 tags: intro rambling
 summary: I explain what this page will be and why I'm doing it.
 image: https://lh3.googleusercontent.com/qU2Mr9-Dvu9sJZe_etS_qwOUSl0P3VkdTqiblfoSm8wSc6dWg9MhP-oZOiP3oBan9BVkWIOdgtwMNvhKtmyqcANrjMpBPX74vj_ceMUtrCTNv0QZgX0DQSjEuKZvewrCsE82zK-z4lA=w2400
+footnotes:
+  -Insofar as anything posted on the internet can be "tangible".
+  -Probably I will have a full write up at some point trying to explore my thoughts on this since I immediately started rambling on the topic.
+  -Which means I should probably figure out what the hell I actually want to do with this site.
 ---
 First off I'd like to say hello to the void that I'll be sending these posts to. I've set this site up as a way to force myself into doing some writing, and there's no plan to promote it to get readers or anything like that. I'm mostly doing this because the act of publishing something feels like a good motivation to start doing some short writing - having a tangible¹ product at the end of the day feels like an accomplishment and thus something to come back and contribute to again and again.
 
@@ -46,9 +50,5 @@ Well, that about wraps up this introduction. Thank you for reading this if you m
 
 
 ***
-¹Insofar as anything posted on the internet can be "tangible".
 
-²Probably I will have a full write up at some point trying to explore my thoughts on this since I immediately started rambling on the topic.
-
-³Which means I should probably figure out what the hell I actually want to do with this site.
 
