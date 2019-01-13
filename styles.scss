@@ -23,6 +23,7 @@ html, body{
       height: "200px";
     }
 	
+@media #{$medium-and-up}{	
 .bottomout{
 	height: 100%
 }
@@ -31,7 +32,8 @@ html, body{
 	height:100%;
 	margin:auto;
 	}
-
+}
+	
 #leftnavlist{
 	background-image: url("https://adamebell.com/images/farmland.jpg");
 	background-size: auto 100%;
