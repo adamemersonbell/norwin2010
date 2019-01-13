@@ -26,7 +26,54 @@
 
   <body>
 	<main>
-		<ul id="slide-out" class="sidenav sidenav-fixed">
+		<div class="row">
+		<div class="col s12 m4 l3" id="leftnav"> <!-- Note that "m4 l3" was added -->
+			<ul id="leftnavlist">
+				<li>
+					<div class="user-view">
+						<div class="background">
+							<img src="{{ site.baseurl }}/images/farmland.jpg">
+						</div>
+						<a href="#user"><img class="circle" src="{{ site.baseurl }}/images/jekyll-logo.png"></a>
+						<a href="#name"><span class="white-text name">{{ site.name }}</span></a>
+						<a href="#email"><span class="white-text email">{{ site.description }}</span></a>
+					</div>
+				</li>			
+				<li class="bold"><a href="{{ site.baseurl }}/about" class="waves-effect waves-teal">About</a></li>
+				<li class="bold"><a href="https://{{ site.url }}" class="waves-effect waves-teal">Blog</a></li>
+				<li class="no-padding">
+					<li class="no-padding">
+						<ul class="collapsible collapsible-accordion">
+							<li>
+								<a class="collapsible-header">Tags<i class="material-icons">arrow_drop_down</i></a>
+								<div class="collapsible-body">
+									<ul>
+										<li><a href="#!">Must</a></li>
+										<li><a href="#!">Create</a></li>
+										<li><a href="#!">For</a></li>
+										<li><a href="#!">Loop</a></li>
+									</ul>
+								</div>
+							</li>
+						</ul>
+					</li>
+				</li>
+			</ul>
+		</div>
+	
+		<div class="col s12 m8 l9"> <!-- Note that "m8 l9" was added -->
+{{ content }}
+		</div>
+	
+		</div>
+          
+	
+	
+	
+	
+	
+	
+		<!--ul id="slide-out" class="sidenav sidenav-fixed">
 			<li>
 				<div class="user-view">
 					<div class="background">
@@ -56,7 +103,7 @@
 					</ul>
 				</li>
 			</li>
-		</ul>
+		</ul-->
 		<!--ul class="left hide-on-med-and-down">
 			<li><a href="#name"><span class="white-text name">{{ site.name }}</span></a></li>
 			<li><a href="#email"><span class="white-text email">{{ site.description }}</span></a></li>
@@ -68,7 +115,7 @@
 				<li><a href="#!">Loop</a></li>
 			</ul>
 		</ul-->
-	    <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>  
+	    <!--a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a-->  
 	<!--nav class="purple accent-1" role="navigation">
 		<div class="nav-wrapper container">
 			<a id="logo-container" href="{{ site.baseurl }}/" class="brand-logo">
@@ -83,16 +130,16 @@
 	</nav-->		
 		
 
-	      {{ content }}
+	      
 </main>
 
-    <div class="wrapper-footer">
+    <!--div class="wrapper-footer">
       <div class="container">
         <footer class="footer">
           {% include svg-icons.html %}
         </footer>
       </div>
-    </div>
+    </div-->
 
     {% include analytics.html %}
   </body>
