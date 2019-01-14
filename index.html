@@ -4,7 +4,8 @@ layout: default
 <div class="indexheader teal lighten-5 z-depth-3"><h1>Recent Posts</h1></div>
   {% for post in site.posts %}
 					<!--div class="postcard blue lighten-5 z-depth-3"-->
-					<a href="{{ post.url }}">
+				<a href="{{ post.url }}">
+					<div>
 						<div class="card horizontal small hoverable z-depth-1 clickable">
 							<div class="card-image">
 								<img src="{{ post.image }}">
@@ -24,7 +25,8 @@ layout: default
 								</div>
 							</div>
 						</div>
-					</a>
+					</div>
+				</a>
 					<!--/div-->
 
   {% endfor %}
