@@ -16,10 +16,12 @@ TKTKTK make this introduction readable.
 ---
 
 {% for book in site.data.2018bookspt1 %}
-<div class="mediatitle">{{ book.title }} by {{ book.author }}</div>
-<div class="mediaoverview row">
-	<img class="mediaimg column" src="{{ book.image }}">
-	<div class="mediatext column">
+<div><h4>{{ book.title }} by {{ book.author }}</h4></div>
+<div class="row">
+	<div class="col s4">
+		<img class="responsive-img" src="{{ book.image }}">
+	</div>
+	<div class="col s8">
 		{{ book.synopsis }}
 		<details>
 			<summary>
