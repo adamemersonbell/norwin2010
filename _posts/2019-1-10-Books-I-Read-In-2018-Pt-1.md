@@ -14,6 +14,7 @@ Reading non-fiction books in anything but short bursts has always been difficult
 Tabletop Roleplaying rulebooks make up a large portion of my completed books for 2018. I've been slowly getting more and more into TTRPGs since I was first introduced to it in ~2012, but until this year had only played Dungeons and Dragons (briefly 4e and a fair amount of 5e), a small stint in Pathfinder, and a couple of sessions of Fiasco. In 2017, I started running my very first game of D&D and found myself enjoying that aspect of the hobby a lot more than I thought I would. I began reading other game systems to see what else the hobby had to offer, and found many of the issues I have with D&D answered by these games.
 
 Below are some of the books that I finished this year. It's not everything, but I may come back to write about the other books eventually.
+
 ---
 
 {% for book in site.data.2018bookspt1 %}
