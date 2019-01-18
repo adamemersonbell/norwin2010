@@ -26,25 +26,6 @@
   reaction: |
     "hello"
   image:
-
-- darkforest:
-  title: "The Dark Forest"
-  author: "Cixin Liu (translated by Joel Martinsen)"
-  synopsis: |
-    This is the second book in the <i>Rememberance of Earth's Past</i> trilogy. This time we're following Luo Ji, a lazy sociologist who is thrust into the spotlight of a changed world.
-  reaction: |
-    wow it sure is a dark forest out there huh
-    yep sure is
-  image:
-
-- deathsend:
-  title: "Death's End"
-  author: "Cixin Liu (Translated by Ken Liu)"
-  synopsis: |
-    This is the third and final book in the <i>Rememberance of Earth's Past</i> trilogy.
-  reaction: |
-    beep
-  image:
   
 #- book: ""
 #  title: ""

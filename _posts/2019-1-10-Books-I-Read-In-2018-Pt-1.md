@@ -27,12 +27,6 @@ Below are some of the books that I finished this year. It's not everything, but 
 		<p>
 		{{ book.synopsis }}
 		</p>
-		<details>
-			<summary>
-				Spoilers ahead:
-			</summary>
-			{{ book.reaction }}
-		</details>
 	</div>
 </div>
 
