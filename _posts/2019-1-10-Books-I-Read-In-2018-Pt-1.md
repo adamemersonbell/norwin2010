@@ -7,7 +7,7 @@ summary: I start recounting the books I read in 2018 and some brief thoughts on 
 ---
 At the start of 2018, I set a goal to try to read a book on average each week. I didn't quite make it to 52, but I read more books than I probably would have otherwise. 
 
-I very much go in cycles with my reading - some months I will read well over one per week and other months I barely read at all. It really depends on how well a book can get its hooks into me. Often, once I finish a book or series, it can be difficult for me to pick anything else up for a while.
+I very much go in cycles with my reading - some months I will read well over one per week and other months I barely read at all. It really depends on how well a book can get its hooks into me. Often, once I finish a book or series, I won't pick up another book for a bit while I decompress.
 
 I didn't finish many non-fiction books last year. Reading non-fiction books in anything but short bursts is typically difficult for me. I enjoy the way that these books present an opportunity to learn in a much more in depth way than normal about a single topic, but there's only so much of one topic that I can keep focus on for a long time. So I hop in and out of these, which is why they won't feature too heavily in these posts.
 
@@ -24,7 +24,9 @@ I didn't record the date that I finished each book, so the following overviews a
 		<img class="responsive-img" src="{{ book.image }}">
 	</div>
 	<div class="col s8">
+		<p>
 		{{ book.synopsis }}
+		</p>
 		<details>
 			<summary>
 				Spoilers ahead:
