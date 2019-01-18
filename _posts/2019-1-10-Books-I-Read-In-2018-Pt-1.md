@@ -34,17 +34,3 @@ Below are some of the books that I finished this year. It's not everything, but 
 
 {% endfor %}
 
-***
-
-
-[wrap up]
--Adam
-
-
-***
-¹
-
-²
-
-³
-
