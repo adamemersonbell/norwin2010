@@ -45,7 +45,7 @@ comments:
   # (*) REQUIRED
   #
   # Destination path (directory) for the data files. Accepts placeholders.
-  path: "data/comments/{options.postId}"
+  path: "data/comments/{options.postId}/"
 
   # (*) REQUIRED
   #
