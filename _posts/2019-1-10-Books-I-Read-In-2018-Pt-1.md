@@ -20,10 +20,10 @@ Below are some of the books that I finished this year. It's not everything, but 
 {% for book in site.data.2018bookspt1 %}
 <div><h4>{{ book.title }} by {{ book.author }}</h4></div>
 <div class="row">
-	<div class="col s4">
+	<div class="col s12 m4">
 		<img class="responsive-img" src="{{ book.image }}">
 	</div>
-	<div class="col s8">
+	<div class="col s12 m8">
 		<p>
 		{{ book.synopsis }}
 		</p>
