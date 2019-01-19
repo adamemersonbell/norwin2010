@@ -1,24 +1,25 @@
-<div class="container"> 
+<div class="container light-blue"> 
  <div class="row">
+	<h3>Comment here>
     <form class="col s12" method="POST" action="https://api.staticman.net/v3/entry/github/adamebell/adamebell.github.io/master/comments">
 		<input name="options[redirect]" type="hidden" value="{{page.url}}">
   <!-- e.g. "2016-01-02-this-is-a-post" -->
 		<input name="options[slug]" type="hidden" value="{{ page.slug }}">
       <div class="row">
-        <div class="input-field col s6">
+        <div class="input-field col s12 m6">
 		  <i class="material-icons prefix">account_circle</i>
-          <input placeholder="Name" id="fields[name]" type="text" class="validate">
+          <input placeholder="Name" name="fields[name]" type="text" class="validate">
           <label for="fields[name]">Name</label>
         </div>
-        <div class="input-field col s6">
+        <div class="input-field col s12 m6">
 		  <i class="material-icons prefix">email</i>
-          <input id="fields[email]" type="email" class="validate">
+          <input name="fields[email]" type="email" class="validate">
           <label for="fields[email]">Email</label>
         </div>
       </div>
       <div class="row">
         <div class="input-field col s12">
-          <textarea placeholder="your comment here" id="fields[message]" type="text" class="validate"></textarea>
+          <textarea placeholder="your comment here" name="fields[message]" type="text" class="validate"></textarea>
           <label for="fields[message]">Comment text</label>
         </div>
       </div>
