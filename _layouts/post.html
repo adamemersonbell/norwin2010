@@ -29,4 +29,10 @@ layout: default
 
   {% include statcman.html %}
 
+  {% capture postid %}
+  {{ page.id }}
+  {% endcapture %}
+  
+  {% include staticmancomments.html content=postid %}
+  
 </div>
