@@ -4,6 +4,7 @@ title: Books I Read in 2018 Part 1
 image: https://lh3.googleusercontent.com/wBVXgAhHDglNIXd3_-20AbDwAQf2Sajn-cfDicWhz86Hrq0tNlhSrp_tPF-tOTDwLFsiKG3ceVmIzFYwiV1cjiIZNrjRS8a12ECvlRaSp5RnL1qEprYQzY0TYX3HZBhSGJCx2L1zRtk=w2400
 tags: books
 summary: I start recounting the books I read in 2018 and some brief thoughts on each.
+datafile: site.data.2018bookspt1
 ---
 At the start of 2018, I set a goal to try to read a book on average each week. I didn't quite make it to 52, but I read more books than I probably would have otherwise. 
 
@@ -17,20 +18,4 @@ Below are some of the books that I finished this year. It's not everything, but 
 
 ---
 
-{% for book in site.data.2018bookspt1 %}
-<div><h4>{{ book.title }} by {{ book.author }}</h4></div>
-<div class="row">
-	<div class="col s12 m4">
-		<img class="responsive-img" src="{{ book.image }}">
-	</div>
-	<div class="col s12 m8">
-		<p>
-		{{ book.synopsis }}
-		</p>
-	</div>
-</div>
-
----
-
-{% endfor %}
-
+    {% include booklist.html %}
