@@ -13,7 +13,7 @@ comments:
   # listed will be accepted.
   allowedOrigins: ["adamebell.com"]
   
-  commitMessage: "add [comment]: by {fields.name} <Staticman>\n\n{fields.url}#comment-{@id}"
+  commitMessage: "add [comment]: by {fields.name} - {date} <Staticman>\n\n{fields.url}#comment-{@id}"
   
   # (*) REQUIRED
   #
