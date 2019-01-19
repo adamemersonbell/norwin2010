@@ -30,7 +30,7 @@ layout: default
   {% include statcman.html %}
 
   {% capture postid %}
-	{{ page.id }}
+	{{ page.id | remove "/"}}
   {% endcapture %}
   
   {% include staticmancomments.html postid=postid bam="beep" %}
