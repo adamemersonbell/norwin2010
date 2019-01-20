@@ -30,9 +30,9 @@ layout: default
   {% include statcman.html %}
 
   {% capture postid %}
-	{{ page.id | slice: 1,page.id.size }}
+	{{ page.id }}
   {% endcapture %}
   
-  {% include staticmancomments.html postid=postid bam="beep" %}
+  {% include staticmancomments.html postId=postid bam="beep" %}
   
 </div>
