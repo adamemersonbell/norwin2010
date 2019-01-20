@@ -15,7 +15,7 @@
 				<div class="card-content">
 					<span class="card-title">Commenter: {{ commentData.name }}</span>
 					<p>{{ commentData.message }}</p>
-					<p>{{ commentData.date | date: "%Y-%m-%d %H:%M"}}
+					<p>{{ commentData.date | slice : 0, 10 | date: "%Y-%m-%d %H:%M"}}
 				</div>
 		</div>
 	{% endif %}
