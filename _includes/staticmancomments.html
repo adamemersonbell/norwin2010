@@ -1,11 +1,12 @@
 <div>
   {% for comment in site.data.comments %}
-  <div>boop {{ comment }} - {{ include.postId }}</div>
+  {% assign commentData= comment[1] %}
+  <div>boop {{ commentData.postId }} - {{ include.postId }}</div>
 	{% if comment.postId == include.postId %}
 		<div class="card">
 				<div class="card-content">
-					<span class="card-title">Commenter: {{ comment.name }}</span>
-					<p>{{ comment.message }}</p>
+					<span class="card-title">Commenter: {{ commentData.name }}</span>
+					<p>{{ commentData.message }}</p>
 				</div>
 		</div>
 	{% endif %}
