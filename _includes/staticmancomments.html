@@ -2,7 +2,7 @@
   {% for comment in site.data.comments %}
   {% assign commentData= comment[1] %}
   <div>boop {{ commentData.postId }} - {{ include.postId }}</div>
-	{% if comment.postId == include.postId %}
+	{% if commentData.postId == include.postId %}
 		<div class="card">
 				<div class="card-content">
 					<span class="card-title">Commenter: {{ commentData.name }}</span>
