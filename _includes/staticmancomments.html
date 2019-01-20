@@ -1,8 +1,17 @@
 <div>
   {% for comment in site.data.comments %}
   {% assign commentData= comment[1] %}
-  <div>boop {{ commentData.postId }} - {{ include.postId }}</div>
-	{% if commentData.postId == include.postId %}
+  
+  {% capture commentPostId %}
+	{{commentData.postId | strip_newlines }}
+  {% endcapture %}
+
+  {% capture includePostId %}
+	{{include.postId | strip_newlines }}
+  {% endcapture %}
+  
+  <div>boop {{ commentPostId }} - {{ includePostId }}</div>
+	{% if commentPostId == includePostId %}
 		<div class="card">
 				<div class="card-content">
 					<span class="card-title">Commenter: {{ commentData.name }}</span>
