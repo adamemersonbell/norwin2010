@@ -3,11 +3,11 @@
   {% assign commentData= comment[1] %}
   
   {% capture commentPostId %}
-	{{commentData.postId | strip_newlines }}
+	{{commentData.postId | strip_newlines | strip }}
   {% endcapture %}
 
   {% capture includePostId %}
-	{{include.postId | strip_newlines }}
+	{{include.postId | strip_newlines | strip}}
   {% endcapture %}
   
   <div>boop {{ commentPostId }} - {{ includePostId }}</div>
