@@ -10,8 +10,7 @@
 	{{include.postId | strip_newlines | strip}}
   {% endcapture %}
   
-  <div>boop {{ commentPostId }} - {{ includePostId }}</div>
-	{% if commentPostId == includePostId %}
+  {% if commentPostId == includePostId %}
 		<div class="card">
 				<div class="card-content">
 					<span class="card-title">Commenter: {{ commentData.name }}</span>
