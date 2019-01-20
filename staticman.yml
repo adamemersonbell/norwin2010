@@ -28,8 +28,8 @@ comments:
   generatedFields:
     date:
       type: date
-      options: "iso8601"
-        format: "timestamp"
+      options: 
+        format: "iso8601"
   # The format of the generated data files. Accepted values are "json", "yaml"
   # or "frontmatter"
   format: "yaml"
