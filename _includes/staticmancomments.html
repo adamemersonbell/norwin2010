@@ -1,9 +1,5 @@
 <div>
-{% capture postid %}
-	site.data.{{ include.postid }}
-{% endcapture %}
-
-  {% for comment in site.data.comment %}
+  {% for comment in site.data.comments %}
   <div>boop</div>
 	{% if comment.postId == include.postId %}
 		<div class="card">
