@@ -1,1 +1,15 @@
-<div>{{ include.postid }} {{include.beep}} hello it is I</div>
+<div>
+{% capture postdirectory %}
+	site.data.{{ include.postid }}
+{% endcapture %}
+
+  {% for comment in postdirectory %}
+		<div class="card">
+				<div class="card-content">
+					<span class="card-title">{{ comment.name }}</span>
+					<p>{{ comment.message }}</p>
+				</div>
+		</div>
+
+  {% endfor %}
+	</div>
