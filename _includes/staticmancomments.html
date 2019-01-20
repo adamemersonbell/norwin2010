@@ -1,6 +1,6 @@
 <div>
   {% for comment in site.data.comments %}
-  <div>boop</div>
+  <div>boop {{ comment.postId }} - {{ include.postId }}</div>
 	{% if comment.postId == include.postId %}
 		<div class="card">
 				<div class="card-content">
