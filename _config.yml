@@ -20,12 +20,12 @@ footer-links:
   email:
   facebook:
   flickr:
-  github: bicyclingbear
-  instagram: bicyclingbear
+  github: adamebell
+  instagram: adamebell
   linkedin:
   pinterest:
   rss: hereiam
-  twitter: 
+  twitter: adamebell
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
@@ -33,14 +33,14 @@ footer-links:
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
-disqus: 
+disqus: adamebell
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics:
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url: bicyclingbear.com
+url: adamebell.com
 
 # what's the problem then github why are u a 404
 
