@@ -1,6 +1,6 @@
 ---
 layout: post
-title: What is this going to be?
+title: Hello and welcome
 tags: norwin 2010 ten-year reunion
 summary: I explain what this page will be and why I'm doing it.
 image: https://3.files.edl.io/c54a/18/06/13/135935-5a98f4fb-ae99-4423-b139-d57e7067c78c.jpg
