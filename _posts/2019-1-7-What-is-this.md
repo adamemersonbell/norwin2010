@@ -3,7 +3,7 @@ layout: post
 title: What is this going to be?
 tags: intro rambling
 summary: I explain what this page will be and why I'm doing it.
-image:https://3.files.edl.io/c54a/18/06/13/135935-5a98f4fb-ae99-4423-b139-d57e7067c78c.jpg
+image: https://3.files.edl.io/c54a/18/06/13/135935-5a98f4fb-ae99-4423-b139-d57e7067c78c.jpg
 footnotes:
   - 'Hello.'
 ---
