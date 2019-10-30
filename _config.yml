@@ -48,7 +48,7 @@ url: adamemersonbell.github.io/norwin2010
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
-baseurl: "norwin2010"
+baseurl: "/norwin2010"
 
 
 #
